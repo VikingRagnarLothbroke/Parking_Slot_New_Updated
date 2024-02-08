@@ -1,0 +1,255 @@
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+
+
+/* Style the heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the slots container */
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+/* Style the slot button */
+.slot-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style for available slots */
+.slot-button.available {
+  background-color: #2ecc71;
+}
+
+/* Style for occupied slots */
+.slot-button.occupied {
+  background-color: #e74c3c;
+  border-radius: 10px;
+}
+
+/* Style for selected slots */
+.slot-button.selected {
+  background-color: #f39c12;
+  cursor: not-allowed;
+}
+
+/* Disable the button appearance for selected slots */
+.slot-button.selected:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+footer#foot1.foot{
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+  margin-top: 300px;
+
+}
+
+.container {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+
+}
+
+.contact-details, .social-icons {
+
+  flex: 1;
+
+  padding: 10px;
+
+}
+
+.contact-details h3, .social-icons h3 {
+
+  font-size: 18px;
+
+  margin-bottom: 10px;
+
+}
+
+.contact-details p {
+
+  margin: 0;
+
+}
+
+.social-icons ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.social-icons li {
+
+  margin: 0 10px;
+
+}
+div.container.available_slots{
+  padding-top: 110px;
+  display: block;
+  margin: 0px,57px,0px,57px;
+}
+#show{
+  margin-top: 50px;
+  
+}
+
+.Book_slots_btn{
+
+  text-align: center;
+
+  border-radius: 4px;
+
+  background-color: red;
+
+  padding: 9px 20px 5px 20px;
+
+  margin-left: 10px;
+
+  cursor: pointer;
+
+}
+input#selected-date.dateinput{
+  font-size: 20px;
+  padding: 1.9px;
+  
+}
+
+button.Show_slots_btn{
+
+  text-align: center;
+  border-radius: 4px;
+  background-color: red;
+  padding: 9px 20px 5px 20px;
+  margin-left: 10px;
+
+}
+label.datename{
+  font-size: 25px;
+  
+}
+
+
+
+.required{
+  padding-top: 10px
+}
+.required li{
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.space{
+  width: 1px;
+  padding: 10px;
+  border: 2px solid black;
+  padding-top: 10px;
+  background-color: #2ecc71;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.space.occupied{   /*if the seat is occupied then colour changes to red*/
+  width: 1px;
+  padding: 10px;
+  border: 2px solid black;
+  padding-top: 10px;
+  background-color: #e74c3c;
+}
+.space.selected{
+  width: 1px;
+  padding: 10px;
+  border: 2px solid black;
+  padding-top: 10px;
+  background-color: #f39c12;
+
+}
+button.slot-button.available{
+  margin-left: 10px;
+  border-radius: 10px;
+}
+button.slot-button.occupied{
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.Shift{
+  padding: 9px 7px 6px 7px;
+}
+div.dropdown-menu{
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  border-radius: 10px;
+  padding: 10px 35px 1px 10px;
+  background-color: rgb(255, 43, 43);
+}
+
+.dropdown-menu ul{
+display: flex;
+align-items:flex-start;
+flex-direction: column;
+position: fixed;
+top: 5rem;
+right: 1rem;
+border-radius: 10px;
+padding: 10px 35px 1px 10px;
+background-color: rgb(255, 43, 43);
+}
+
+
+
+.dropdown-menu ul li{
+padding: 8px;
+border-radius: 7px;
+color: aqua;
+background-color: rgb(255, 43, 43);
+transition: background-color 0.3s ease;
+width: 100%;
+}
+
+.dropdown-menu ul li:hover {
+background-color: transaparent;
+box-shadow: 0 0 12px white;
+
+}

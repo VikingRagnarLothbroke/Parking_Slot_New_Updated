@@ -1,0 +1,315 @@
+  #Home{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: top 30%;
+    align-items: center;
+  }
+  #Home h2 {
+    color: rgb(5, 5, 5);
+    font-size: 2.26rem;
+    letter-spacing: 1px;
+    padding-top: 120px;
+    text-align: center;
+    line-height: 25px;
+  }
+  #Home p{
+    width: 50%;
+    line-height: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  .pre-hm a.hme {
+    color: #fff;
+    /* background-color: red; */
+  }
+  /* .pre-hm a.hme:hover {
+    color:red;
+    /* background-color:#fff; 
+  } */
+li.hamburgericon{
+    display: none;
+}
+
+  button.Slot_button{
+
+    text-align: center;
+  
+    /* box-shadow: 2px 2px; */
+  
+    /* border-radius: 4px;
+  
+    background-color: red;
+   */
+    /* padding: 10px 20px; */
+    
+    cursor: pointer;
+   
+  
+  }
+  
+  button.Slot_button a{
+  
+    text-decoration: none;
+  
+    font-weight: 600;
+  
+    color:blanchedalmond;
+}
+div.dropdown-menu{
+      display: flex;
+      align-items:flex-start;
+      flex-direction: column;
+      position: fixed;
+      top: 5rem;
+      right: 1rem;
+      border-radius: 10px;
+      padding: 10px 35px 1px 10px;
+      background-color: rgb(255, 43, 43);
+  }
+.dropdown-menu ul li{
+  padding: 8px;
+  border-radius: 7px;
+  text-decoration: none;
+  background-color: rgb(255, 43, 43);
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+/* .dropdown-menu ul li:hover {
+  background-color: transaparent;
+  box-shadow: 0 0 12px white;
+ 
+} */
+
+
+
+div.dropdown-menu2{
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: 7rem;
+  border-radius: 10px;
+  padding: 10px 35px 1px 10px;
+  background-color: rgb(255, 43, 43);
+}
+
+.dropdown-menu2 ul{
+display: flex;
+align-items:flex-start;
+flex-direction: column;
+position: fixed;
+top: 5rem;
+right: 0rem;
+border-radius: 10px;
+padding: 10px 35px 1px 10px;
+background-color: rgb(255, 43, 43);
+}
+
+
+
+.dropdown-menu2 ul li{
+padding: 8px;
+border-radius: 7px;
+color: aqua;
+background-color: rgb(255, 43, 43);
+transition: background-color 0.3s ease;
+width: 100%;
+}
+
+/* .dropdown-menu2 ul li:hover {
+background-color: transaparent;
+box-shadow: 0 0 12px white;
+
+} */
+
+ 
+   
+
+  
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  /* .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  /* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details, .social-icons {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .contact-details h3, .social-icons h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details p {
+    margin: 0;
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Font Awesome Icons Styles (assuming you're using Font Awesome) */
+  .fa-facebook:before {
+    content: "\f09a"; /* Facebook icon */
+  }
+  
+  .fa-twitter:before {
+    content: "\f099"; /* Twitter icon */
+  }
+  
+  .fa-instagram:before {
+    content: "\f16d"; /* Instagram icon */
+  }
+  
+  /* Add more icon styles as needed for other social media platforms */
+.foot{
+  margin-top: 30px;
+}  
+
+#notification-menu{
+display: flex;
+align-items:flex-start;
+flex-direction: column;
+position: fixed;
+top: 5rem;
+right: 1rem;
+border-radius: 10px;
+padding: 10px 35px 1px 10px;
+background-color: rgb(255, 43, 43);
+}
+
+ul.notification-list{
+  padding: 1px;
+  background: rgb(255, 43, 43);
+  border-radius: 5px;
+  flex-direction: column;
+  max-height: 200px; 
+  overflow-y: auto; 
+  display:block; 
+} 
+div#notification-menu.dropdown_menu{
+  width: 200px;
+  padding: 5px;
+  box-shadow: 2px 2px black;
+}
+li.noti{
+  color: white;
+  padding: 2px;
+  font-size: small;
+  background: tomato;
+  border-radius: 5px;
+  margin: 5px 10px;
+  display: block;
+}
+a#clear-notifications-btn{
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 14px;
+}
+
+span.notification-count{
+  color: white;
+}
+h1{
+  font-weight: 700;
+}
+/* img.LOGO{
+    background: white;
+    padding: 2px;
+    border-radius: 4px;
+} */
